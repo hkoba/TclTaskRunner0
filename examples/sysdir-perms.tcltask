@@ -5,9 +5,9 @@ import * from utils.tcl
 import * from file-utils.tcl
 
 set ALL {
-    {040700 {}  /root}
-    {040700 600 /etc/pki/tls/private}
-    {040750 440 /etc/sudoers.d}
+    {0o40700 {}  /root}
+    {0o40700 600 /etc/pki/tls/private}
+    {0o40750 440 /etc/sudoers.d}
 }
 
 foreach spec $ALL {
